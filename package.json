@@ -1,0 +1,9 @@
+{
+  "name": "sicoe",
+  "private": true,
+  "description": "Atajos para trabajar desde la carpeta principal: los comandos se ejecutan en panel-admin",
+  "scripts": {
+    "dev": "npm --prefix panel-admin run dev",
+    "build": "npm --prefix panel-admin run build"
+  }
+}
