@@ -1,0 +1,64 @@
+{
+  "expo": {
+    "name": "SICOE",
+    "slug": "sicoe-app-movil",
+    "version": "2.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "scheme": "sicoe",
+    "userInterfaceStyle": "automatic",
+    "android": {
+      "package": "pe.muni.sicoe",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "permissions": [
+        "android.permission.VIBRATE",
+        "android.permission.SCHEDULE_EXACT_ALARM"
+      ],
+      "softwareKeyboardLayoutMode": "resize",
+      "blockedPermissions": [
+        "android.permission.RECORD_AUDIO",
+        "android.permission.SYSTEM_ALERT_WINDOW"
+      ]
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font",
+      "expo-sharing",
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "SICOE usa la cámara para leer la constancia de pago del conductor.",
+          "recordAudioAndroid": false
+        }
+      ],
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "SICOE guarda la ubicación solo al registrar un ingreso o un cobro."
+        }
+      ],
+      [
+        "expo-notifications",
+        {
+          "color": "#1A6FB5",
+          "defaultChannel": "avisos",
+          "enableRemoteNotifications": false
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "SICOE usa tus fotos para subir el QR de cobro o leer una constancia."
+        }
+      ],
+      "./plugins/rutas-cortas-windows"
+    ],
+    "experiments": {
+      "typedRoutes": false
+    }
+  }
+}
