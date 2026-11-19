@@ -19,7 +19,7 @@ SICOE reúne dos herramientas:
 
 ## App de campo (`app-movil-rn`)
 
-Detalle completo en [`app-movil-rn/README.md`](app-movil-rn/README.md).
+Detalle completo en [`app-movil-rn/README.md`](app-movil-rn/README.md). Documentación completa (instalación, manual de usuario y cómo funciona): [`docs/DOCUMENTACION.md`](docs/DOCUMENTACION.md).
 
 ```bash
 cd app-movil-rn
