@@ -1,8 +1,7 @@
 # Firma de la app Android: guárdala aparte y en un lugar seguro, no en el repositorio
-app-movil/android/parqueo.keystore
-app-movil/android/build/
+*.keystore
+*.jks
 *.idsig
 node_modules/
 .env
 panel-admin/dist/
-app-movil/android/firma.local

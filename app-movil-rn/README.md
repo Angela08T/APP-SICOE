@@ -1,7 +1,7 @@
 # SICOE · App de campo (React Native)
 
 App Android para los cobradores de estacionamiento de la Municipalidad de San Juan de Lurigancho.
-Está hecha con **React Native + Expo (SDK 58)** y reemplaza a la versión anterior en HTML con WebView (`../app-movil`).
+Está hecha con **React Native + Expo (SDK 58)**.
 
 Funciona **sin internet**: los registros se guardan en el celular. Todavía no se conecta a un servidor.
 

@@ -16,7 +16,6 @@ SICOE reúne dos herramientas:
 |---|---|---|
 | [`app-movil-rn/`](app-movil-rn/) | **App de campo actual** | React Native + Expo (SDK 58), solo Android |
 | [`panel-admin/`](panel-admin/) | Panel web administrativo | React 19 + Motion + Vite |
-| [`app-movil/`](app-movil/) | Versión anterior de la app (referencia) | HTML/JS dentro de un WebView Android |
 
 ## App de campo (`app-movil-rn`)
 
